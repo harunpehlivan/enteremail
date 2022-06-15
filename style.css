@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+	background-color: darkblue;
+  }
+   
+  body {
+    margin: 20px auto;
+    font-family: "Lato";
+    font-weight: 300;
+	  background-color: darkblue;
+  }
+   
+  form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+	  background-color: white;
+	  border: black;
+  }
+   
+  form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+	  background-color: #ffffff;
+	  border: black;
+  }
+   
+  input {
+    font-family: "Lato";
+	  background-color: white;
+	  border: black;
+  }
+   
+  a {
+    color: #0000ff;
+    text-decoration: none;
+	  background-color: violet;
+  }
+   
+  a:hover {
+    text-decoration: underline;
+	  background-color: violet;
+  }
+   
+  #wrapper,
+  #loginform {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    width: 600px;
+    max-width: 100%;
+    border: 2px solid #000000;
+    border-radius: 4px;
+	  background-color: white;
+  }
+   
+  #loginform {
+    padding-top: 18px;
+    text-align: center;
+	  background-color: white;
+	  border: black;
+  }
+   
+  #loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+	  background-color: darkblue;
+  }
+   
+  #chatbox {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0px;
+    background: white;
+    height: 0px;
+    width: 0px;
+    border: 1px solid #ff00ff;
+    overflow: auto;
+    border-radius: 4px;
+    border-bottom: 4px solid violet;
+	  background-color: white;
+  }
+   
+  #usermsg {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #000000;
+	  background-color: white;
+	  color: black;
+  }
+   
+  #name {
+    border-radius: 4px;
+    border: 1px solid #ff9800;
+    padding: 2px 8px;
+	  background-color: white;
+  }
+   
+  #submitmsg,
+  #enter{
+    background: #0056d6;
+    border: 2px solid #000000;
+    color: black;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+	  background-color: white;
+  }
+   
+  .error {
+    color: #ff0000;
+	  background-color: darkblue;
+  }
+   
+  #menu {
+    padding: 15px 25px;
+    display: flex;
+	  background-color: white;
+  }
+   
+  #menu p.welcome {
+    flex: 1;
+	  background-color: white;
+  }
+   
+  .msgln {
+    margin: 0px;
+  }
+   
+  .msgln span.left-info {
+    color: orangered;
+	  background-color: darkblue;
+  }
+   
+  .msgln span.chat-time {
+    color: #ff00ff;
+    font-size: 60%;
+    vertical-align: left;
+	  background-color: white;
+  }
